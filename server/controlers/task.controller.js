@@ -8,7 +8,8 @@ export const getTask =  (req, res) => {
 
 
 export const createTask =  (req, res) => {
-    res.send("Tasks Routes")
+    console.log(req.body);
+    res.send("Tcreate tasks")
 }
 
 
