@@ -1,5 +1,5 @@
 export const getTasks =  (req, res) => {
-    res.send("Tasks Routes")
+    res.send("getTasks Routes")
 }
 
 export const getTask =  (req, res) => {
@@ -14,9 +14,9 @@ export const createTask =  (req, res) => {
 
 
 export const updateTask =  (req, res) => {
-    res.send("Tasks Routes")
+    res.send("updateTask Routes")
 }
 
 export const deleteTask =  (req, res) => {
-    res.send("Tasks Routes")
+    res.send("deleteTask Routes")
 }
