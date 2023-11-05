@@ -5,7 +5,7 @@ import taskRoutes from './routes/task.routes.js'
 const app = express()
 
 
-app.set(express.json())
+app.use(express.json())
 app.use(indexRoutes)
 app.use(taskRoutes)
 app.listen(PORT,()=>{
